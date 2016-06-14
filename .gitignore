@@ -1,0 +1,2 @@
+# ignore all directories so we ignore any clone dirs
+tracing/
