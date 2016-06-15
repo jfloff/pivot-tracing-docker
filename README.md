@@ -56,7 +56,7 @@ First start the Pivot Tracing container:
 docker start pivot-tracing
 ```
 
-Then following the tutorial, we need to [HDFS `DataNode` and `NameNode`](http://brownsys.github.io/tracing-framework/docs/tutorials/gettingstarted.html):
+Then following the tutorial, we need to start [HDFS `DataNode` and `NameNode`](http://brownsys.github.io/tracing-framework/docs/tutorials/gettingstarted.html):
 ```shell
 docker exec pivot-tracing sh /home/start-hdfs.sh
 ```
