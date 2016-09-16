@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # install protofbuf 2.5.0
 RUN mkdir /home/protobuf && cd /home/protobuf \
-  && curl -# -O https://protobuf.googlecode.com/files/protobuf-2.5.0.tar.gz \
+  && curl -# -LO https://github.com/google/protobuf/releases/download/v2.5.0/protobuf-2.5.0.tar.gz \
   && gunzip protobuf-2.5.0.tar.gz \
   && tar -xvf protobuf-2.5.0.tar \
   && cd protobuf-2.5.0 \
